@@ -1,7 +1,7 @@
 import java.rmi.Naming;
 public class ServerRmi
 {
-    calcserv()
+    ServerRmi()
     {
         try
         {
@@ -15,6 +15,6 @@ public class ServerRmi
         }
     public static void main(String arg[])
     {
-      new calcserv();
+      new ServerRmi();
     }
 }
